@@ -6,7 +6,7 @@ from Show import Show
 
 def main():
     # Customers Tests
-    print("\n*********************************")
+    print("\n*********** Start ****************")
 
     print("\nCustomers Tests:\n")
     regular_customer = Customer("C001", "John", "Doe", "john.doe@example.com", "123 Main St", CustomerType.REGULAR)
@@ -44,6 +44,8 @@ def main():
     print("\nShow.calculate Tests:\n")
     print(" - Total Revenue:", show.calculate_revenue())
     print(" - Total Discount Given:", show.calculate_total_discount_given())
+
+    print("\n*********** End ****************")
 
 
 if __name__ == "__main__":
